@@ -1,0 +1,41 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/bc6502/addsub.v" type="file.verilog" enable="1"/>
+        <File path="src/bc6502/bc6502.v" type="file.verilog" enable="1"/>
+        <File path="src/dpvram.v" type="file.verilog" enable="1"/>
+        <File path="src/ls42.v" type="file.verilog" enable="1"/>
+        <File path="src/micro.v" type="file.verilog" enable="1"/>
+        <File path="src/missile.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/complete_address_decoder.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/delay_line.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/latch_delay_line.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/pokey.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/pokey_countdown_timer.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/pokey_keyboard_scanner.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/pokey_noise_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/pokey_poly_17_9.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/pokey_poly_4.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/pokey_poly_5.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/synchronizer.v" type="file.verilog" enable="1"/>
+        <File path="src/pokey/syncreset_enable_divider.v" type="file.verilog" enable="1"/>
+        <File path="src/scandoubler_new.v" type="file.verilog" enable="1"/>
+        <File path="src/spram.v" type="file.verilog" enable="1"/>
+        <File path="src/sync2.v" type="file.verilog" enable="1"/>
+        <File path="src/trackball.v" type="file.verilog" enable="1"/>
+        <File path="proms/pgrom0.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pgrom1.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pgrom2.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/prom_L6.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-MisileCommand.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dac.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll20.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-MisileCommand.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

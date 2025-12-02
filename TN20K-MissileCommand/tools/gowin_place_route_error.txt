@@ -1,0 +1,13 @@
+If GoWin Place and Route Task reports a WRITE_MODE0 error:
+
+open the below file in notepad:
+
+\your_projects_dir\TN20K-MissileCommand\impl\gwsynthesis\TN20K-MissileCommand.vg
+
+search for and replace all occurances of the following text:
+
+WRITE_MODE0=2'b10 replace with WRITE_MODE0=2'b00
+
+save file TN20K-MissileCommand.vg
+
+repeat place and route task which should now run without errors.
