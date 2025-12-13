@@ -37,12 +37,12 @@ end else if (ce_5M) begin
 ///// HORIZONTAL COUNTER AND SYNC // more squashes screen toward center
 hcnt <= hcnt + 9'd1;
 case (hcnt)
-9'd280: h_blank <= 1; //256
-9'd284: h_sync <= 1;  //260
-9'd312: h_sync <= 0;  //288
+9'd254: h_blank <= 1; //256
+9'd275: h_sync <= 1;  //260
+9'd285: h_sync <= 0;  //288
 9'd325: begin  //319
 hcnt <= 0;
-h_blank<= 0;
+h_blank <= 0;
 vcnt <= vcnt + 8'd1; // always count up
 end
 endcase
