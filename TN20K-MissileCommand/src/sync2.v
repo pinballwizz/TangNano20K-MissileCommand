@@ -34,7 +34,7 @@ h_blank<= 0;
 v_blank<= 0;
 end else if (ce_5M) begin
 
-///// HORIZONTAL COUNTER AND SYNC // more squashes screen toward center
+///// HORIZONTAL COUNTER AND SYNC
 hcnt <= hcnt + 9'd1;
 case (hcnt)
 9'd254: h_blank <= 1; //256
@@ -47,7 +47,7 @@ vcnt <= vcnt + 8'd1; // always count up
 end
 endcase
 
-///// VERTICAL SYNC/BLANK generation // less moves screen down
+///// VERTICAL SYNC/BLANK generation
 case (vcnt)
 8'd0: v_blank <= 1; //0
 8'd25: v_blank <= 0;  //25
