@@ -31,11 +31,11 @@
         <File path="proms/pgrom1.vhd" type="file.vhdl" enable="1"/>
         <File path="proms/pgrom2.vhd" type="file.vhdl" enable="1"/>
         <File path="proms/prom_L6.vhd" type="file.vhdl" enable="1"/>
-        <File path="src/TN20K-MisileCommand.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-MissileCommand.vhd" type="file.vhdl" enable="1"/>
         <File path="src/dac.vhd" type="file.vhdl" enable="1"/>
         <File path="src/gowin_rpll20.vhd" type="file.vhdl" enable="1"/>
         <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
         <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
-        <File path="src/TN20K-MisileCommand.cst" type="file.cst" enable="1"/>
+        <File path="src/TN20K-MissileCommand.cst" type="file.cst" enable="1"/>
     </FileList>
 </Project>
